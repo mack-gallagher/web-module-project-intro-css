@@ -1,5 +1,71 @@
 .omni-container {
-  display: flex;
-  flex-direction: column;
-  width: 80vw;
+  margin: 50px;
+}
+
+header img {
+  width: 220px;
+  border-radius: 50%;
+}
+
+.lower {
+  text-align: center;
+}
+
+.left {
+  height: 150px;
+  width: 30vw;
+  display: inline-block;
+}
+
+.right {
+  height: 160px;
+  width: 50vw;
+  display: inline-block;
+}
+
+.head.park-description {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.head.park-description p {
+  line-height: 20px;
+}
+
+.right h1 {
+}
+
+section.main-text-body {
+  background-color: #DDB9A3;
+}
+
+.main-text-body p {
+  color: white;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+
+a.plan {
+  background-color: #FF764E;
+}
+
+a.learn {
+  background-color: #5ED3EB;
+}
+
+a.get {
+  background-color: #FFCD69;
+}
+
+footer img {
+  max-width: 90vh;
 }
