@@ -88,20 +88,26 @@ h1 {
 
 .lower-content {
   text-align: center;
+  margin: 0 auto 10%;
 }
 
 .icon-container {
-  margin: 5vh auto;
-  width: 50vh;
+  margin: 5% auto;
+  width: 50%;
 }
 
 .icon-container img {
-  width: 30%;
-  margin: 10%;
+  width: 90px;
+  margin: 5%;
 }
 
 .icon-container p {
-  font-size: 0.75em;
+  font-weight: 100;
+  font-size: 0.8em;
+}
+
+.to-bold {
+  font-weight: 900;
 }
 
 nav a {
@@ -154,6 +160,6 @@ footer img {
   .right { 
     width: 80%;
     transform: translateX(0);
-    margin-bottom: 0 auto;
+    margin: 5% auto;
   }
 }
