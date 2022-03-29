@@ -41,11 +41,12 @@ header img {
 .lower {
   text-align: center;
   margin-top: 2%;
+  /* margin-bottom: 2%; */
 }
 
 .left {
   height: 150px;
-  width: 30vw;
+  width: 30%;
   display: inline-block;
 }
 
@@ -58,8 +59,7 @@ header img {
 
 .head.park-description {
   display: block;
-  margin-bottom: 5%;
-  white-space: post-wrap;
+  margin-top: 5%;
 }
 
 .head.park-description p {
@@ -93,6 +93,11 @@ h1 {
 .icon-container {
   margin: 5vh auto;
   width: 50vh;
+}
+
+.icon-container img {
+  width: 30%;
+  margin: 10%;
 }
 
 .icon-container p {
@@ -134,4 +139,21 @@ footer img {
   height: 200px;
   object-fit: cover;
   object-position: 100% 0;
+}
+
+@media (max-width: 700px) {
+
+  .left {
+    text-align: center;
+  }
+
+  .left img {
+    margin: 0 auto;
+  }
+
+  .right { 
+    width: 80%;
+    transform: translateX(0);
+    margin-bottom: 0 auto;
+  }
 }
