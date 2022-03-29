@@ -1,10 +1,16 @@
-.omni-container {
-  margin: 50px;
+* {
+  font-family: "Roboto Mono";
+  text-align: center;
 }
 
 header img {
   width: 220px;
   border-radius: 50%;
+}
+
+.head.omni {
+  display: block;
+  margin: 40px;
 }
 
 .lower {
@@ -21,6 +27,7 @@ header img {
   height: 160px;
   width: 50vw;
   display: inline-block;
+  transform: translateY(-28%);
 }
 
 .head.park-description {
@@ -32,26 +39,37 @@ header img {
   line-height: 20px;
 }
 
-.right h1 {
+h1 {
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: 'Chelsea Market';
 }
 
-section.main-text-body {
+.main-text-body {
   background-color: #DDB9A3;
+  margin: 20px;
 }
 
 .main-text-body p {
   color: white;
 }
 
-nav {
+.lower-content {
   text-align: center;
+}
+
+.icon-container {
+  margin: auto;
+  width: 50vh;
 }
 
 nav a {
   display: inline-block;
   text-decoration: none;
   color: white;
-  margin: 20px;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
 }
 
 a.plan {
@@ -66,6 +84,16 @@ a.get {
   background-color: #FFCD69;
 }
 
+footer {
+  width: 100%;
+  background-color: #F9E7DC;
+}
+
+.image-container {
+  height: 100px;
+}
+
 footer img {
-  max-width: 90vh;
+  object-fit: cover;
+  object-position: 0 50%;
 }
